@@ -21,7 +21,7 @@ public class DtaToStringJson1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(DtaToStringJson1Application.class, args);
 		LOGGER.debug("Average finder v0.1");
-		double avg = findAverage(new String[]{"1", "2", "3"});
+		double avg = findAverage(new String[]{"1", "2", "3", "4"});
 		LOGGER.info("Average is {}.", avg);
 
 		/*long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
