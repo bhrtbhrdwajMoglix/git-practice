@@ -23,7 +23,7 @@ public class DtaToStringJson1Application {
 		LOGGER.debug("Average finder v0.1");
 		double avg = findAverage(new String[]{"1", "2", "3", "4","5", "6"});
 		LOGGER.info("Average is {}.", avg);
-
+		LOGGER.info("conflict");
 		/*long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
 		StringBuilder hello = new StringBuilder("Hello");
 		hello.append(" ");
