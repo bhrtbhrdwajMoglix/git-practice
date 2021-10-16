@@ -24,6 +24,7 @@ public class DtaToStringJson1Application {
 		double avg = findAverage(new String[]{"1", "2", "3", "4","5", "6"});
 		LOGGER.info("Average is {}.", avg);
 
+		//git stash
 		/*long beforeUsedMem=Runtime.getRuntime().totalMemory()-Runtime.getRuntime().freeMemory();
 		StringBuilder hello = new StringBuilder("Hello");
 		hello.append(" ");
